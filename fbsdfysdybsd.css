@@ -1,0 +1,26 @@
+
+
+body{
+	background-color: lightblue;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr ;
+		
+	}
+	
+h1{
+    border: solid black;
+	text-align: center;
+	font-family: Arial;
+	font-size: 22px;
+}
+
+p{
+	border: solid black;
+	text-align: left;
+	font-size: 20px
+}
+img{
+	grid-column-start: 1;
+	grid-template-rows: 5;
+}
